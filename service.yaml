@@ -8,4 +8,4 @@ spec:
   ports:
   - port: 80    # service port
     targetPort: 80 # target port on the pod
-  type: LoadBalancer
+  type: ClusterIP
