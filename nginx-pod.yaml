@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: ajay-nginx
+  name: ajay-nginx
+spec:
+  containers:
+  - image: nginx
+    name: ajay-nginx
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
